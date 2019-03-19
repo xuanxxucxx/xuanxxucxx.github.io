@@ -35,7 +35,7 @@ $(document).ready(function () {
             "food":"Pizza",
             "game":"Call of duty III"
         }, function(datas, statues){
-            console.log(data);
+            console.log(datas);
         });
     });
     
