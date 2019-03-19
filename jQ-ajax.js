@@ -20,7 +20,7 @@ $(document).ready(function () {
 
     $('#EpicButton2').click(function () {
 
-        $.get("favourites.php",function(data, statue){
+        $.get("favourites.php",function(data, status){
             console.log(data);
             console.log(status);
 
