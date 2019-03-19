@@ -24,7 +24,7 @@ $(document).ready(function () {
             console.log(data);
             console.log(status);
 
-            $("#AJAXDiv").html(data);
+            $("div").html(data);
         });
 
     });
