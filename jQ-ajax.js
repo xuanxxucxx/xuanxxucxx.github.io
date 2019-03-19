@@ -18,4 +18,15 @@ $(document).ready(function () {
 
     });
 
+    $('#EpicButton2').click(function () {
+
+        $.get("favourites.php",function(data, statue){
+            console.log(data);
+            console.log(status);
+
+            $("#AJAXDiv").html(data);
+        });
+
+    });
+    
 });
