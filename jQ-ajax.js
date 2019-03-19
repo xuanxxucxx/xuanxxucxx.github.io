@@ -28,5 +28,15 @@ $(document).ready(function () {
         });
 
     });
+
+    $('#EpicButton3').click(function(){
+        $.post("favourites.php",
+        {
+            "food":"Pizza",
+            "game":"Call of duty III"
+        }, function(datas, statues){
+            console.log(data);
+        });
+    });
     
 });
